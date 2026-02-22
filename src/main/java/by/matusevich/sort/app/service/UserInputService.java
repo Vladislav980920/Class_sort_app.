@@ -1,6 +1,5 @@
 package by.matusevich.sort.app.service;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class UserInputService {
