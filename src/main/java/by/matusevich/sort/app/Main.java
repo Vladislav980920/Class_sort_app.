@@ -32,7 +32,8 @@ public class Main {
 
             switch (operation) {
                 case 1:
-                    List<String[]> lines = FileUtils.readAndValidateFile("Укажите путь к файлу");
+                    String path = input.readString("Укажите путь к файлу ");
+                    List<String[]> lines = FileUtils.readAndValidateFile(path);
                     int addedCount = 0;
                     for (String[] parts : lines) {
                         if (parts.length >= 3) {
