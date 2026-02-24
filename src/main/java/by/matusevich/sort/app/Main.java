@@ -16,7 +16,6 @@ public class Main {
         List<User> userList = new ArrayList<>();
         UserInputService input = new UserInputService();
         int operation;
-
         while (true) {
             operation = input.readInt("Выберите операцию\n" +
                     "1-Заполнение из файла\n" +
